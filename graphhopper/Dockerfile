@@ -9,6 +9,6 @@ EXPOSE 8989
 
 WORKDIR /data
 
-ENTRYPOINT ["/graphhopper/start.sh"]
-
 RUN /tmp/init.sh
+
+ENTRYPOINT ["/graphhopper/start.sh"]
